@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    border-bottom: black 1px solid;
+}
+
+.nav1 {
+    width: 25%;
+}
+
+.nav1 p {
+    color: #006cfa;
+}
+
+.nav2 {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2vw;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: black;;
+}
+
+.nav2 a:hover {
+    text-decoration: underline;
+    transform: scale(1.03);
+    color: #006cfa;
+    transition: 0.2s;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("assets/fundo_hero.jpg");
+    background-size: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.imagem_perfil {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-left: 5vw;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 10vh;
+}
+
+.imagem_perfil img {
+    width: 27vw;
+    height: 27vw;
+    border-radius: 100%;
+}
+
+.imagem_perfil:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.informacoes {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    margin-top: 10vh;
+}
+
+.informacoes h1 {
+    font-size: 4rem;
+}
+
+.informacoes h3 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.experiencia {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #006cfa;
+    width: 45%;
+    height: 65%;
+    border-right: #006cfa 2px solid;
+}
+
+.direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+.exp_s {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    width: 100%;
+    height: 50%;
+    gap: 5vh;
+}
+
+.card {
+    width: 80%;
+    height: 30%;
+    padding: 1vh 1vw 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3, p {
+    width: 100%;
+    text-align: center;
+}
+
+.card p {
+    color: rgb(120, 120, 120);
+}
+
+.card a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 15px rgba(0, 108, 250, 0.5);
+    transition: 0.2s;
+    
+}
+
+.formacao {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aacfff68;
+}
+
+.direita_formacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #006cfa;
+    width: 45%;
+    height: 65%;
+    border-left: #006cfa 2px solid;
+}
+
+.esquerda_formacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+.formacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    width: 100%;
+    height: 50%;
+    gap: 5vh;
+}
+
+.habilidades {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esquerda_habilidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #006cfa;
+    width: 45%;
+    height: 65%;
+    border-right: #006cfa 2px solid;
+}
+
+.direita_habilidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+.hab_s {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    width: 100%;
+    height: 50%;
+    gap: 5vh;
+}
+
+.tecnologias {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aacfff68;
+}
+
+.direita_tecnologias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #006cfa;
+    width: 45%;
+    height: 65%;
+    border-left: #006cfa 2px solid;
+}
+
+.esquerda_tecnologias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+.tec_s {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    width: 100%;
+    height: 50%;
+    gap: 5vh;
+}
+
+.redes_sociais {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esquerda_redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #006cfa;
+    width: 45%;
+    height: 65%;
+    border-right: #006cfa 2px solid;
+}
+
+.direita_redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    width: 100%;
+    height: 50%;
+    gap: 5vh;
+}
+
+.card i {
+    font-size: 30px;
+    color: #006cfa;
+    margin-bottom: 5px;
+}
