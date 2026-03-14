@@ -73,20 +73,15 @@ html {
     align-items: center;
     z-index: 1;
     margin-left: 5vw;
-    border-radius: 100%;
+    border-radius: 50% 10% 50% 10%;
     background-color: white;
     margin-top: 10vh;
 }
 
 .imagem_perfil img {
-    width: 27vw;
-    height: 27vw;
-    border-radius: 100%;
-}
-
-.imagem_perfil:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
+    width: 28vw;
+    height: 28vw;
+    border-radius: 50% 10% 50% 10%;
 }
 
 .informacoes {
