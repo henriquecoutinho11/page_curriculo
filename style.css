@@ -177,7 +177,7 @@ h2 {
 
 .card:hover {
     transform: scale(1.03);
-    box-shadow: 0px 0px 15px rgba(0, 108, 250, 0.5);
+    box-shadow: 0px 0px 15px #006cfab3;
     transition: 0.2s;
     
 }
