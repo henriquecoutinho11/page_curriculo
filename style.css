@@ -74,13 +74,14 @@ html {
     z-index: 1;
     margin-left: 5vw;
     border-radius: 50% 10% 50% 10%;
-    background-color: white;
+    background-color: #006cfa;
+    box-shadow: 0px 0px 50px 10px #006cfab3;
     margin-top: 10vh;
 }
 
 .imagem_perfil img {
-    width: 28vw;
-    height: 28vw;
+    width: 29.5vw;
+    height: 29.5vw;
     border-radius: 50% 10% 50% 10%;
 }
 
