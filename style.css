@@ -340,3 +340,8 @@ h2 {
     color: #006cfa;
     margin-bottom: 5px;
 }
+
+.link_redes:hover {
+    color: #006cfa;
+    transition: 0.2s;
+}
